@@ -1,3 +1,8 @@
+# pandas is a library used for data manipulation and analyis
+# it is designed to use with relational or labelled data
+
+# matplotlib is a library for creating static, animated and interactive visualisations in python
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
