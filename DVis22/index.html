@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fork of Let's Make a Face Part I</title>
+    <!--
+      Within a style tag we can use insert some CSS into the body to get rid of margins. 
+      overflow:hidden gets rid of scrolling
+    -->
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      height / 2 - strokeWidth / 2
+      centerX - eyeOffsetX
+    -->
+    <svg width="960" height="500">
+      <circle
+        cx="480"
+        cy="250"
+        r="245"
+        fill="yellow"
+        stroke="black"
+        stroke-width="10"
+      ></circle>
+      <circle cx="350" cy="180" r="50"></circle>
+      <circle cx="600" cy="180" r="50"></circle>
+    </svg>
+  </body>
+</html>
